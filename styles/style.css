@@ -44,7 +44,6 @@
 
 .header__content {
   display: flex;
-  justify-content: center;
 }
 
 .header__title {
@@ -118,9 +117,9 @@
   margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 40px;
   padding-left: 0;
+  list-style-type: none;
 }
 
 .card {
@@ -130,7 +129,6 @@
   box-sizing: border-box;
   width: 360px;
   height: 420px;
-  list-style-type: none;
 }
 
 .card__content {
