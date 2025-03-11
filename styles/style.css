@@ -365,17 +365,19 @@
 
 .footer__column-heading {
   color: #ffffff;
-  margin: 0 0 4px;
+  margin: 0 0 20px;
 }
 
 .footer__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .footer__list-item {
-  margin: 16px 0 0;
 }
 
 .footer__column-link {
